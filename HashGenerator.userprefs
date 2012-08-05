@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HashGenerator/hashgen.cs">
+    <Files>
+      <File FileName="HashGenerator/main.cs" Line="13" Column="1" />
+      <File FileName="HashGenerator/hashgen.cs" Line="299" Column="1" />
+      <File FileName="HashGenerator/engine.cs" Line="30" Column="84" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
