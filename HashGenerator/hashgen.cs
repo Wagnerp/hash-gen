@@ -219,7 +219,6 @@ namespace HashGenerator
 				using (TextReader rd = new StreamReader (of.Filename)) {
 					string data = string.Empty;
 					while ((data = rd.ReadLine ()) != null) {
-						Console.WriteLine (data);
 						string[] ds = new string[2];
 						ds [0] = data.Substring (0, data.LastIndexOf (":"));
 						ds [1] = data.Substring (data.LastIndexOf (":") + 1);
@@ -293,7 +292,6 @@ namespace HashGenerator
 			string [] authors = new string [] { "Jamie Cerretelli <jamie@cerretelli.co.uk>" };
 			
 			string license = @"Copyright (C) 2012 Jamie Cerretelli <jamie@cerretelli.co.uk>
-
 Usage of the works is permitted provided that this instrument is retained with the works, 
 so that any entity that uses the works is notified of this instrument.
 DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.";
